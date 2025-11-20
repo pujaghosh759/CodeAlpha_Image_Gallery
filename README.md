@@ -78,5 +78,5 @@ It includes a lightbox viewer, next/previous navigation, smooth transitions, hov
 
 ---
 
-## 👩‍💻 Developed By
+##  Developed By
 **Puja Ghosh**  
