@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="title">Image Gallery</h1>
+
+  <!-- Category Filter -->
+  <div class="filter-buttons">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="animals">Animals</button>
+  </div>
+
+  <!-- Gallery -->
+  <div class="gallery">
+
+    <div class="image-card nature">
+      <img src="https://picsum.photos/id/1018/400/300" alt="">
+    </div>
+
+    <div class="image-card city">
+      <img src="https://picsum.photos/id/1015/400/300" alt="">
+    </div>
+
+    <div class="image-card animals">
+      <img src="https://picsum.photos/id/1025/400/300" alt="">
+    </div>
+
+    <div class="image-card nature">
+      <img src="https://picsum.photos/id/1039/400/300" alt="">
+    </div>
+
+    <div class="image-card city">
+      <img src="https://picsum.photos/id/1040/400/300" alt="">
+    </div>
+
+    <div class="image-card animals">
+      <img src="https://picsum.photos/id/1062/400/300" alt="">
+    </div>
+
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="">
+    <div class="btn prev">❮</div>
+    <div class="btn next">❯</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
